@@ -15,3 +15,35 @@
 [2025-05-04 23:42:07,967: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2025-05-05 14:02:17,420: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:02:17,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:02:17,553: INFO: common: created directory at: artifacts]
+[2025-05-05 14:02:17,557: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-05 14:02:36,180: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-05 14:14:04,211: INFO: main: *******************]
+[2025-05-05 14:14:04,211: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-05 14:14:04,212: ERROR: main: name 'PrepareBaseModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 19, in <module>
+    prepare_base_model = PrepareBaseModelTrainingPipeline()
+NameError: name 'PrepareBaseModelTrainingPipeline' is not defined
+[2025-05-05 14:16:54,426: INFO: main: *******************]
+[2025-05-05 14:16:54,426: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-05 14:16:54,437: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:16:54,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:16:54,459: INFO: common: created directory at: artifacts]
+[2025-05-05 14:16:54,459: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-05 14:16:55,393: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-05 14:16:56,003: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-05 14:22:21,497: INFO: main: *******************]
+[2025-05-05 14:22:21,497: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-05 14:22:21,497: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:22:21,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:22:21,509: INFO: common: created directory at: artifacts]
+[2025-05-05 14:22:21,511: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-05 14:22:22,542: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-05 14:22:23,019: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
