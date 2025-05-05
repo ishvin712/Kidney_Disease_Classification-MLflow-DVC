@@ -47,3 +47,66 @@ x==========x]
 [2025-05-05 14:22:23,019: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2025-05-05 14:34:30,261: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:34:30,271: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:34:30,291: INFO: common: created directory at: artifacts]
+[2025-05-05 14:34:30,295: INFO: common: created directory at: artifacts\training]
+[2025-05-05 14:35:23,747: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:35:23,754: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:35:23,758: INFO: common: created directory at: artifacts]
+[2025-05-05 14:35:23,760: INFO: common: created directory at: artifacts\training]
+[2025-05-05 14:36:15,530: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:36:15,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:36:15,562: INFO: common: created directory at: artifacts]
+[2025-05-05 14:36:15,567: INFO: common: created directory at: artifacts\training]
+[2025-05-05 14:44:59,201: INFO: main: *******************]
+[2025-05-05 14:44:59,203: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-05 14:44:59,210: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:44:59,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:44:59,210: INFO: common: created directory at: artifacts]
+[2025-05-05 14:44:59,210: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 35, in <module>
+    model_trainer.main()
+  File "c:\users\ishant\documents\data_science_project\kidney_disease_classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_03_model_training.py", line 17, in main
+    training_config = config.get_training_config()
+  File "c:\users\ishant\documents\data_science_project\kidney_disease_classification-mlflow-dvc\src\cnnClassifier\config\configuration.py", line 57, in get_training_config
+    training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney-ct-scan-image")
+NameError: name 'os' is not defined
+[2025-05-05 14:45:55,295: INFO: main: *******************]
+[2025-05-05 14:45:55,295: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-05 14:45:55,310: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:45:55,310: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:45:55,310: INFO: common: created directory at: artifacts]
+[2025-05-05 14:45:55,310: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 35, in <module>
+    model_trainer.main()
+  File "c:\users\ishant\documents\data_science_project\kidney_disease_classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_03_model_training.py", line 17, in main
+    training_config = config.get_training_config()
+  File "c:\users\ishant\documents\data_science_project\kidney_disease_classification-mlflow-dvc\src\cnnClassifier\config\configuration.py", line 57, in get_training_config
+    training_data = os.path.join(self.config.data_ingestion.unzip_dir, "Dataset")
+NameError: name 'os' is not defined
+[2025-05-05 14:49:27,277: INFO: main: *******************]
+[2025-05-05 14:49:27,277: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-05 14:49:27,286: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:49:27,288: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:49:27,288: INFO: common: created directory at: artifacts]
+[2025-05-05 14:49:27,288: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 35, in <module>
+    model_trainer.main()
+  File "c:\users\ishant\documents\data_science_project\kidney_disease_classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_03_model_training.py", line 17, in main
+    training_config = config.get_training_config()
+  File "c:\users\ishant\documents\data_science_project\kidney_disease_classification-mlflow-dvc\src\cnnClassifier\config\configuration.py", line 57, in get_training_config
+    training_data = os.path.join(self.config.data_ingestion.unzip_dir, "Dataset")
+NameError: name 'os' is not defined
+[2025-05-05 14:50:56,421: INFO: main: *******************]
+[2025-05-05 14:50:56,421: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-05 14:50:56,421: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-05 14:50:56,421: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-05 14:50:56,421: INFO: common: created directory at: artifacts]
+[2025-05-05 14:50:56,421: INFO: common: created directory at: artifacts\training]
+[2025-05-05 15:41:03,092: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
