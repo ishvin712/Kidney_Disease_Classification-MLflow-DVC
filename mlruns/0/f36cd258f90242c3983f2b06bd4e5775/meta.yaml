@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Ishant/Documents/Data_Science_Project/Kidney_Disease_Classification-MLflow-DVC/mlruns/0/f36cd258f90242c3983f2b06bd4e5775/artifacts
+end_time: 1746506060023
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f36cd258f90242c3983f2b06bd4e5775
+run_name: capable-gull-314
+run_uuid: f36cd258f90242c3983f2b06bd4e5775
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746506026395
+status: 4
+tags: []
+user_id: Ishant
