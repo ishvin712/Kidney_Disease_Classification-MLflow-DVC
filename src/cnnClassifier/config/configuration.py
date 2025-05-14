@@ -70,7 +70,6 @@ class ConfigurationManager:
             params_is_augmentation=params.AUGMENTATION,
             params_image_size=params.IMAGE_SIZE
         )
-
         return training_config
     
     def get_evaluation_config(self) -> EvaluationConfig:
